@@ -13,7 +13,7 @@ import {
 } from 'react-native'
 
 // Measure function triggers false positives
-YellowBox.ignoreWarnings(['Warning: isMounted(...) is deprecated'])
+//YellowBox.ignoreWarnings(['Warning: isMounted(...) is deprecated'])
 UIManager.setLayoutAnimationEnabledExperimental && UIManager.setLayoutAnimationEnabledExperimental(true);
 
 const initialState = {
